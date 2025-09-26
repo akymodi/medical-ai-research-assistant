@@ -1,0 +1,37 @@
+# Medical AI Research Assistant - Dependencies
+
+# Core ML/AI libraries
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+accelerate>=0.20.0
+
+# Hugging Face ecosystem
+huggingface-hub>=0.16.0
+tokenizers>=0.13.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+sqlite3
+
+# API and web requests
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+rich>=13.0.0
+
+# Optional: For advanced fine-tuning
+# peft>=0.4.0  # Parameter-efficient fine-tuning
+# bitsandbytes>=0.41.0  # Quantization (CUDA only)
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
